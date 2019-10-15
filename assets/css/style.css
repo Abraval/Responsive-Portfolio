@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #efeee7;
+    color: dimgrey;
+    font-family: 'EB Garamond', serif;
     background-image: url(../images/so-white.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: dimgrey;
-    font-family: 'EB Garamond', serif;
 }
+
 header {
     background-color:darkgray;
     text-align: center;
@@ -84,7 +84,7 @@ a:link {
     padding: 0 40px 40px 40px;
     overflow: auto;
     background-color: whitesmoke;
-    width: 960px;
+    width: 80%;
     border: 1px solid #ddd;
     border-radius: 4px;
  
@@ -179,3 +179,88 @@ footer {
     width: 100%;
     text-align: center;
 }
+  @media screen and (max-width: 980px) {
+    .main-bio, .gallery, .contact_info{
+      width: 60%;
+    }
+    .name {
+      
+      margin-left: 20px;
+    
+
+  }
+  .topnav {
+
+    margin-right: 10px;
+    margin-top: 20px;
+   
+}
+  .column{
+    width: 50%;
+  }
+  
+  }
+  @media screen and (max-width: 768px) {
+    .main-bio, .gallery, .contact_info{
+      width: 95%;
+    }
+    .name {
+      
+      margin-left: 20px;
+    
+
+  }
+  .topnav {
+
+    margin-right: 10px;
+    margin-top: 20px;
+   
+}
+  .column{
+    width: 50%;
+  }
+  
+  }
+  @media screen and (max-width: 640px) {
+  header{
+    position: static;
+  }
+  body {
+    
+    background-repeat: repeat;
+  }
+  .name {
+    width: 100%;
+    margin: auto;
+  }
+  .topnav{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+
+  #bio-image{
+   
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+  
+  }
+
+  .main-bio p{
+    float: left;
+    clear: both;
+  }
+  
+  .img {
+   
+    max-width: 100%;
+    height: auto;
+    
+  }
+  .column {
+    
+    width: 100%;
+
+  }
+  }

@@ -216,6 +216,10 @@ footer {
     margin-top: 20px;
    
 }
+body {
+    
+  background-repeat: repeat;
+}
   .column{
     width: 50%;
   }
